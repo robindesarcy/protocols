@@ -1,39 +1,520 @@
 {
     "data": [
         {
-            "id": 1, 
-            "name": "Bryan Johnson", 
-            "category": "entrepreneurs",
+            "id": 1,
+            "name": "Bryan Johnson",
+            "category": "ENTREPRENEURS",
             "tagline": "The full Blueprint anti-aging protocol",
             "bio": "Tech entrepreneur and founder of Kernel and OS Fund, known for Project Blueprint — his data-driven effort to slow biological aging through rigorous self-experimentation.",
             "steps": [
                 {
                     "id": 1,
-                    "title": "Wake at a fixed time", 
+                    "title": "Wake at a fixed time",
                     "time": "05:00",
-                    "detail": "Same time daily regardless of sleep duration, to protect circadian rhythm.",
-                    "part": "morning"
+                    "detail": "Same time daily to protect circadian rhythm.",
+                    "part": "MORNING"
                 },
                 {
                     "id": 2,
-                    "title": "Morning measurements", 
+                    "title": "Morning measurements",
                     "time": null,
-                    "detail": "Logs body weight, blood pressure, HRV and glucose before eating.",
-                    "part": "morning"
+                    "detail": "Logs weight, blood pressure, HRV and glucose.",
+                    "part": "MORNING"
                 },
                 {
                     "id": 3,
-                    "title": "PEMF mat therapy", 
+                    "title": "Blueprint supplement stack",
                     "time": null,
-                    "detail": "Pulsed electromagnetic field mat session for recovery.",
-                    "part": "afternoon"
+                    "detail": "Longevity mix and fat-soluble supplements taken with food.",
+                    "part": "MORNING"
                 },
                 {
                     "id": 4,
-                    "title": "Wind-down begins", 
+                    "title": "\"Green Giant\" meal",
+                    "time": null,
+                    "detail": "Vegetable-heavy bowl eaten before late morning.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 5,
+                    "title": "Morning workout",
+                    "time": null,
+                    "detail": "About an hour daily: resistance, cardio, flexibility.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 6,
+                    "title": "Red light therapy",
+                    "time": null,
+                    "detail": "Several minutes under a Joovv red light panel.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 7,
+                    "title": "PEMF mat therapy",
+                    "time": null,
+                    "detail": "Pulsed electromagnetic field mat session for recovery.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 8,
+                    "title": "Deep work block",
+                    "time": null,
+                    "detail": "Afternoon reserved for focused company work.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 9,
+                    "title": "Wind-down begins",
                     "time": "20:00",
                     "detail": "Lights dimmed, switched to red-wavelength bulbs.",
-                    "part": "evening"
+                    "part": "EVENING"
+                },
+                {
+                    "id": 10,
+                    "title": "Sleep optimization",
+                    "time": null,
+                    "detail": "Tracks sleep score with a smart ring nightly.",
+                    "part": "EVENING"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Oprah Winfrey",
+            "category": "INFLUENCERS",
+            "tagline": "Meditation-anchored mornings and gratitude-driven living",
+            "bio": "Media executive, philanthropist, actress and producer who built one of the most influential media empires in history, host of The Oprah Winfrey Show for 25 years and founder of OWN Network.",
+            "steps": [
+                {
+                    "id": 1,
+                    "title": "Wake up",
+                    "time": "06:30",
+                    "detail": "Wakes between 6:00 and 7:00 AM.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 2,
+                    "title": "Morning meditation",
+                    "time": null,
+                    "detail": "Twenty minutes of stillness before any input.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 3,
+                    "title": "Gratitude journaling",
+                    "time": null,
+                    "detail": "Writes daily gratitude before facing any demands.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 4,
+                    "title": "Morning supplements",
+                    "time": null,
+                    "detail": "Vitamin D3, omega-3, collagen and probiotics.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 5,
+                    "title": "Mindful breakfast",
+                    "time": null,
+                    "detail": "Treats breakfast as a deliberate, unhurried ritual.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 6,
+                    "title": "Strength and cardio training",
+                    "time": null,
+                    "detail": "Trains daily with a personal trainer.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 7,
+                    "title": "Nature walk",
+                    "time": null,
+                    "detail": "Walks outdoors, where her best ideas emerge.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 8,
+                    "title": "Protected morning work",
+                    "time": null,
+                    "detail": "Reserves mornings for her sharpest strategic thinking.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 9,
+                    "title": "Evening reading",
+                    "time": null,
+                    "detail": "Reads a physical book before bed nightly.",
+                    "part": "EVENING"
+                },
+                {
+                    "id": 10,
+                    "title": "Magnesium and lights out",
+                    "time": "21:00",
+                    "detail": "Takes magnesium glycinate, off screens by nine.",
+                    "part": "EVENING"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Sam Altman",
+            "category": "ENTREPRENEURS",
+            "tagline": "Longevity-stacked mornings for the OpenAI era",
+            "bio": "CEO of OpenAI and former president of Y Combinator, known for pairing an aggressive, long-term technology vision with an explicit longevity-focused daily protocol.",
+            "steps": [
+                {
+                    "id": 1,
+                    "title": "Later wake-up",
+                    "time": "08:30",
+                    "detail": "Wakes later, matching his natural energy cycle.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 2,
+                    "title": "Longevity supplement stack",
+                    "time": null,
+                    "detail": "Takes NMN, resveratrol and TMG before eating.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 3,
+                    "title": "Protected reading time",
+                    "time": null,
+                    "detail": "No meetings before 11 AM for reading.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 4,
+                    "title": "Strategic thinking block",
+                    "time": null,
+                    "detail": "Uses mornings for deep, uninterrupted thinking.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 5,
+                    "title": "Daily training",
+                    "time": null,
+                    "detail": "Combines strength training and cardio daily.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 6,
+                    "title": "Mitochondrial support",
+                    "time": null,
+                    "detail": "Takes CoQ10 alongside his training routine.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 7,
+                    "title": "Batched meetings",
+                    "time": null,
+                    "detail": "Batches meetings into afternoon and early evening.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 8,
+                    "title": "Dinner with challengers",
+                    "time": null,
+                    "detail": "Dines with people who challenge his thinking.",
+                    "part": "EVENING"
+                },
+                {
+                    "id": 9,
+                    "title": "Magnesium and sleep tracking",
+                    "time": null,
+                    "detail": "Takes magnesium glycinate, tracks sleep via ring.",
+                    "part": "EVENING"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "James Clear",
+            "category": "INFLUENCERS",
+            "tagline": "Habit-stacked mornings behind Atomic Habits",
+            "bio": "Author of \"Atomic Habits,\" the best-selling book on habit formation, and writer of the 3-2-1 newsletter read by over two million subscribers.",
+            "steps": [
+                {
+                    "id": 1,
+                    "title": "Phone-free wake-up",
+                    "time": "06:30",
+                    "detail": "Wakes without checking his phone first.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 2,
+                    "title": "Morning journaling",
+                    "time": null,
+                    "detail": "Writes three ideas and his top task.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 3,
+                    "title": "Deep work block",
+                    "time": null,
+                    "detail": "Writes three to four hours, phone away.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 4,
+                    "title": "Strength training",
+                    "time": null,
+                    "detail": "Trains three to four days per week.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 5,
+                    "title": "\"Never miss twice\" rule",
+                    "time": null,
+                    "detail": "Never skips two workouts in a row.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 6,
+                    "title": "Daily walk",
+                    "time": null,
+                    "detail": "Walks daily for movement and clear thinking.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 7,
+                    "title": "Batched afternoon work",
+                    "time": null,
+                    "detail": "Batches email, meetings and admin together.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 8,
+                    "title": "Blue light glasses",
+                    "time": "19:00",
+                    "detail": "Wears blue light glasses from evening onward.",
+                    "part": "EVENING"
+                },
+                {
+                    "id": 9,
+                    "title": "Consistent bedtime",
+                    "time": null,
+                    "detail": "Takes magnesium glycinate at a fixed bedtime.",
+                    "part": "EVENING"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "David Goggins",
+            "category": "ATHLETES",
+            "tagline": "3 AM wake-ups and radical mental toughness",
+            "bio": "Retired Navy SEAL, ultramarathon runner, former world record pull-up holder and author of \"Can't Hurt Me,\" known for one of the most extreme self-discipline frameworks of any public figure.",
+            "steps": [
+                {
+                    "id": 1,
+                    "title": "3 AM wake-up",
+                    "time": "03:30",
+                    "detail": "Wakes without snoozing, no negotiation allowed.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 2,
+                    "title": "Morning run",
+                    "time": null,
+                    "detail": "Runs 10 to 20 miles before sunrise.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 3,
+                    "title": "Cold shower",
+                    "time": null,
+                    "detail": "Cold shower post-run, choosing discomfort deliberately.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 4,
+                    "title": "Pull-up sets",
+                    "time": null,
+                    "detail": "Doorway pull-up sets spread across the day.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 5,
+                    "title": "Cross-training",
+                    "time": null,
+                    "detail": "Adds cycling or swimming during training cycles.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 6,
+                    "title": "High-volume fueling",
+                    "time": null,
+                    "detail": "Eats frequently, high in protein and carbs.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 7,
+                    "title": "Accountability mirror",
+                    "time": null,
+                    "detail": "Sticky notes confront his goals and weaknesses.",
+                    "part": "EVENING"
+                },
+                {
+                    "id": 8,
+                    "title": "Nightly self-assessment",
+                    "time": null,
+                    "detail": "Asks nightly whether he gave full effort.",
+                    "part": "EVENING"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Elon Musk",
+            "category": "ENTREPRENEURS",
+            "tagline": "5-minute time blocks running multiple trillion-dollar companies",
+            "bio": "CEO of Tesla and SpaceX, owner and CTO of X, and founder of xAI, whose daily routine is built purely around maximizing decisions and output rather than health optimization.",
+            "steps": [
+                {
+                    "id": 1,
+                    "title": "Wake and check phone",
+                    "time": "07:00",
+                    "detail": "Wakes, checks X notifications and email immediately.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 2,
+                    "title": "Morning email block",
+                    "time": "07:30",
+                    "detail": "Thirty minutes clearing critical emails and fires.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 3,
+                    "title": "5-minute time blocks",
+                    "time": null,
+                    "detail": "Entire day scheduled in 5-minute blocks.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 4,
+                    "title": "Engineering-first mornings",
+                    "time": null,
+                    "detail": "Mornings focus on engineering, not meetings.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 5,
+                    "title": "Factory floor time",
+                    "time": null,
+                    "detail": "Spends hours directly on the factory floor.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 6,
+                    "title": "Diet Coke all day",
+                    "time": null,
+                    "detail": "Multiple Diet Cokes, no timing protocol.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 7,
+                    "title": "Irregular exercise",
+                    "time": null,
+                    "detail": "Occasional gym, jiu-jitsu, and long walks.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 8,
+                    "title": "Active on X",
+                    "time": null,
+                    "detail": "Posts and engages on X throughout the day.",
+                    "part": "EVENING"
+                },
+                {
+                    "id": 9,
+                    "title": "Late night work",
+                    "time": "20:00",
+                    "detail": "Works past midnight, often on factory floors.",
+                    "part": "EVENING"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Andrew Huberman",
+            "category": "SCIENTISTS",
+            "tagline": "Neuroscience-backed morning light and cold exposure protocol",
+            "bio": "Neuroscientist, professor at Stanford School of Medicine, and host of the Huberman Lab podcast, known for translating rigorous neuroscience into practical daily protocols.",
+            "steps": [
+                {
+                    "id": 1,
+                    "title": "Wake without an alarm",
+                    "time": "06:15",
+                    "detail": "Wakes naturally, avoids checking his phone.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 2,
+                    "title": "Morning sunlight walk",
+                    "time": null,
+                    "detail": "Ten to thirty minutes outside, no sunglasses.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 3,
+                    "title": "Hydration first",
+                    "time": null,
+                    "detail": "Water with electrolytes before anything else.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 4,
+                    "title": "Delayed caffeine",
+                    "time": null,
+                    "detail": "Waits 90 to 120 minutes before coffee.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 5,
+                    "title": "AG1 and omega-3",
+                    "time": null,
+                    "detail": "Takes AG1 and fish oil before eating.",
+                    "part": "MORNING"
+                },
+                {
+                    "id": 6,
+                    "title": "Resistance training",
+                    "time": null,
+                    "detail": "Trains six days, morning strength focus.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 7,
+                    "title": "Cold exposure",
+                    "time": null,
+                    "detail": "Cold plunge several mornings per week.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 8,
+                    "title": "Red light therapy",
+                    "time": null,
+                    "detail": "Ten to twenty minutes under a red panel.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 9,
+                    "title": "NSDR session",
+                    "time": null,
+                    "detail": "Non-sleep deep rest during the afternoon.",
+                    "part": "AFTERNOON"
+                },
+                {
+                    "id": 10,
+                    "title": "Evening wind-down",
+                    "time": "20:00",
+                    "detail": "Dims lights, limits screens before bed.",
+                    "part": "EVENING"
                 }
             ]
         }
