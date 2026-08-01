@@ -1,0 +1,41 @@
+{
+    "data": [
+        {
+            "id": 1, 
+            "name": "Bryan Johnson", 
+            "category": "entrepreneurs",
+            "tagline": "The full Blueprint anti-aging protocol",
+            "bio": "Tech entrepreneur and founder of Kernel and OS Fund, known for Project Blueprint — his data-driven effort to slow biological aging through rigorous self-experimentation.",
+            "steps": [
+                {
+                    "id": 1,
+                    "title": "Wake at a fixed time", 
+                    "time": "05:00",
+                    "detail": "Same time daily regardless of sleep duration, to protect circadian rhythm.",
+                    "part": "morning"
+                },
+                {
+                    "id": 2,
+                    "title": "Morning measurements", 
+                    "time": null,
+                    "detail": "Logs body weight, blood pressure, HRV and glucose before eating.",
+                    "part": "morning"
+                },
+                {
+                    "id": 3,
+                    "title": "PEMF mat therapy", 
+                    "time": null,
+                    "detail": "Pulsed electromagnetic field mat session for recovery.",
+                    "part": "afternoon"
+                },
+                {
+                    "id": 4,
+                    "title": "Wind-down begins", 
+                    "time": "20:00",
+                    "detail": "Lights dimmed, switched to red-wavelength bulbs.",
+                    "part": "evening"
+                }
+            ]
+        }
+    ]
+}
